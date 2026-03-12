@@ -1,0 +1,67 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="saffron" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9933;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Tricolor top bar -->
+  <rect x="0" y="0" width="400" height="6" fill="#FF9933"/>
+  <rect x="400" y="0" width="400" height="6" fill="#FFFFFF"/>
+  <rect x="800" y="0" width="400" height="6" fill="#138808"/>
+  
+  <!-- Ministry text -->
+  <text x="600" y="80" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">
+    MINISTRY OF NALA AFFAIRS | नाला मामलों का मंत्रालय
+  </text>
+  
+  <!-- Toilet emoji placeholder -->
+  <text x="600" y="170" text-anchor="middle" font-size="60">🚽</text>
+  
+  <!-- Main title Hindi -->
+  <text x="600" y="250" text-anchor="middle" fill="white" font-family="Georgia, serif" font-size="52" font-weight="bold">
+    प्रधानमंत्री
+  </text>
+  
+  <!-- Main title English -->
+  <text x="600" y="320" text-anchor="middle" fill="url(#saffron)" font-family="Georgia, serif" font-size="60" font-weight="bold">
+    Gutter Gas Yojna
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="370" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="24">
+    हर नाले से, हर घर तक 🚽➡️🏠
+  </text>
+  
+  <!-- Crisis banner -->
+  <rect x="250" y="410" width="700" height="50" rx="8" fill="#DC2626"/>
+  <text x="600" y="443" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">
+    🚨 LIVE: India's LPG Crisis — March 2026
+  </text>
+  
+  <!-- Stats row -->
+  <text x="200" y="520" text-anchor="middle" fill="#FF9933" font-family="Georgia, serif" font-size="36" font-weight="bold">25 Days</text>
+  <text x="200" y="548" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="14">LPG refill wait</text>
+  
+  <text x="450" y="520" text-anchor="middle" fill="#FF9933" font-family="Georgia, serif" font-size="36" font-weight="bold">10,000+</text>
+  <text x="450" y="548" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="14">Restaurants shutting</text>
+  
+  <text x="720" y="520" text-anchor="middle" fill="#FF9933" font-family="Georgia, serif" font-size="36" font-weight="bold">90%</text>
+  <text x="720" y="548" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="14">LPG via Hormuz</text>
+  
+  <text x="950" y="520" text-anchor="middle" fill="#FF9933" font-family="Georgia, serif" font-size="36" font-weight="bold">0</text>
+  <text x="950" y="548" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Arial, sans-serif" font-size="14">Parliament debates</text>
+  
+  <!-- URL -->
+  <text x="600" y="605" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="Arial, sans-serif" font-size="16">
+    pmguttergasyojna.com — Connect the dots. 🇮🇳
+  </text>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #000080 0%, #16213e 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .tricolor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #FF9933 0%, #FF9933 33%, #fff 33%, #fff 66%, #138808 66%, #138808 100%);
+  }
+  .ministry {
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 24px;
+    margin-top: 20px;
+  }
+  .emoji { font-size: 56px; margin-bottom: 16px; }
+  .hindi {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+    margin-bottom: 4px;
+  }
+  .main-title {
+    font-size: 64px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+    background: linear-gradient(90deg, #FF9933, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .tagline {
+    font-size: 24px;
+    opacity: 0.8;
+    margin-bottom: 28px;
+  }
+  .crisis-bar {
+    background: #DC2626;
+    padding: 12px 48px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 36px;
+  }
+  .stats {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 24px;
+  }
+  .stat-num {
+    font-size: 38px;
+    font-weight: 900;
+    color: #FF9933;
+    font-family: Georgia, serif;
+  }
+  .stat-label {
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 4px;
+  }
+  .url {
+    font-size: 15px;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="tricolor"></div>
+  <div class="ministry">Ministry of Nala Affairs | नाला मामलों का मंत्रालय</div>
+  <div class="emoji">🚽</div>
+  <div class="hindi">प्रधानमंत्री</div>
+  <div class="main-title">Gutter Gas Yojna</div>
+  <div class="tagline">हर नाले से, हर घर तक 🚽➡️🏠</div>
+  <div class="crisis-bar">🚨 LIVE: India's LPG Crisis — March 2026</div>
+  <div class="stats">
+    <div style="text-align:center">
+      <div class="stat-num">25 Days</div>
+      <div class="stat-label">LPG refill wait</div>
+    </div>
+    <div style="text-align:center">
+      <div class="stat-num">10,000+</div>
+      <div class="stat-label">Restaurants shutting</div>
+    </div>
+    <div style="text-align:center">
+      <div class="stat-num">90%</div>
+      <div class="stat-label">LPG via Hormuz</div>
+    </div>
+    <div style="text-align:center">
+      <div class="stat-num">0</div>
+      <div class="stat-label">Parliament debates</div>
+    </div>
+  </div>
+  <div class="url">pmguttergasyojna.com — Connect the dots. 🇮🇳</div>
+</body>
+</html>
