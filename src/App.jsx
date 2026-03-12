@@ -171,14 +171,6 @@ export default function App() {
   return (
     <div style={{ fontFamily: "'Noto Sans', sans-serif", background: CREAM, color: DARK, overflowX: "hidden" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;900&family=Playfair+Display:wght@700;900&family=Tiro+Devanagari+Hindi&display=swap');
-        
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        html { scroll-behavior: smooth; }
-        
-        body { overflow-x: hidden; }
-        
         .marquee-track {
           display: flex;
           animation: marquee 25s linear infinite;
